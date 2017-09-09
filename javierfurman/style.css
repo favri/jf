@@ -1,0 +1,88 @@
+/*TIPOGRAFIA*/
+
+/*TENGO 400 (REGULAR), 600 (SEMIBOLD) y 700 (BOLD) */
+
+h1 {
+	font-size: 100px;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	font-weight: 600;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	font-weight: 600;
+}
+
+h3 {
+	font-size: 35px;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+}
+
+h4 {
+	font-size: 14px;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+}
+
+
+.centerelement {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+/*NAVBAR*/
+
+.top-nav {
+	padding-top: 25px;
+}
+
+
+/*LISTA*/
+
+li {
+	list-style: none;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	font-size: 12px;
+}
+
+.circle {
+	border-radius: 50%;
+	background-color: #000000;
+	height: 30px;
+	width: 30px;
+	margin: 0 5px 0 0;
+}
+
+.social-icons {
+	display: flex !important;
+	padding-top: 9px;
+	justify-content: space-around;
+	color: #fff;
+}
+
+
+
+/*BOTONES*/
+
+.btn-custom { 
+
+	color: #fff;
+	background-color: #000 !important;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	font-weight: 600;
+	border-radius: 0 !important;
+
+}
+
+
+.inline {
+	display: inline !important;
+}
+
+.inline-block {
+	display: inline-block !important;
+}
+
+
