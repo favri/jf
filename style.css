@@ -227,3 +227,7 @@ width: 50%;
 .modal-content {
 	border-radius: 0px !important;
 }
+
+body.modal-open {
+    overflow: visible;
+}
