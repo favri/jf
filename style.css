@@ -39,7 +39,6 @@ p {
 /*HELPER CLASSES*/
 
 .margintop150 {
-
 margin-top: 150px;
 }
 
@@ -49,6 +48,10 @@ margin-top: 150px;
 
 .margintop40 {
 	margin-top: 40px;
+}
+
+.margintop10 {
+margin-top: 10px;
 }
 
 .marginbottom40 {
@@ -75,6 +78,15 @@ margin-top: 150px;
 	padding-top: 25px;
 }
 
+.navbar-default {
+	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	background-color: white;
+	border: none;
+	background-image: none !important;
+
+}
+
 
 /*LISTA*/
 
@@ -99,6 +111,11 @@ li {
 	color: #fff;
 }
 
+
+.rrss-list {
+	margin-top: 10px;
+	margin-left: 0px;
+}
 
 /*LISTA TRATAMIENTOS*/
 
