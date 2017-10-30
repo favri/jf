@@ -262,7 +262,7 @@ body.modal-open {
 /*MEDIA QUERIES*/
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
 
 h1 {
 	font-size: 70px;
