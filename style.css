@@ -2,30 +2,39 @@
 
 /*TENGO 400 (REGULAR), 600 (SEMIBOLD) y 700 (BOLD) */
 
+
+
+
 h1 {
 	font-size: 100px;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
 	font-weight: 600;
+	color: black;
 }
+
 
 h2 {
 	font-size: 50px;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
 	font-weight: 600;
+	color: black;
 }
 
 h3 {
 	font-size: 35px;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	color: black;
 }
 
 h4 {
 	font-size: 18px;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	color: black;
 }
 
 p {
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	color: black;
 }
 
 
@@ -248,3 +257,27 @@ width: 50%;
 body.modal-open {
     overflow: visible;
 }
+
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 320px) {
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+}
+
+
+@media screen and (min-width: 990px) {
+	.margintop150desk {
+margin-top: 150px;
+}
+
+	}
