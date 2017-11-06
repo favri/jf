@@ -272,6 +272,10 @@ h2 {
 	font-size: 35px;
 }
 
+h3 {
+	font-size: 25px;
+}
+
 }
 
 
@@ -281,3 +285,7 @@ margin-top: 150px;
 }
 
 	}
+
+area:focus {
+	outline: solid red 2px !important;
+}
