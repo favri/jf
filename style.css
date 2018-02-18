@@ -76,6 +76,10 @@ margin-top: 10px;
 	padding: 35px;
 }
 
+.padding20-nosides {
+	padding: 20px 0px;
+}
+
 .margin25auto {
 	    margin: 25px auto;
 }
@@ -95,6 +99,16 @@ margin-top: 10px;
 	background-image: none !important;
 
 }
+
+
+/*VIDEOS*/
+
+.video-responsive {
+	display: block;
+    max-width: 100%;
+}
+
+
 
 
 /*LISTA*/
@@ -135,6 +149,25 @@ list-style: none;
 }
 
 
+/*LISTA TRATAMIENTOS PAGINA*/
+
+.tratamientos-pagina li {
+	list-style: none;
+	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.tratamientos-pagina li:before {
+	content: url("img/bullet_cuadrado.jpg");
+    padding-right: 8px;
+    padding-top: 3px;
+    color: #befff4;
+    vertical-align: -20%;
+}
+
+
+
 
 
 /*CUERPOS*/
@@ -170,6 +203,13 @@ list-style: none;
 .btn-custom:focus {
 	color: #ccc !important;
 }
+
+.btn-fixed {
+	width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
 
 .btn-custom-white { 
 
@@ -289,3 +329,5 @@ margin-top: 150px;
 area:focus {
 	outline: solid red 2px !important;
 }
+
+
