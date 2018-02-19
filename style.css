@@ -158,12 +158,11 @@ list-style: none;
 	font-weight: 600;
 }
 
-.tratamientos-pagina li:before {
+.tratamientos-pagina h3:before {
 	content: url("img/bullet_cuadrado.jpg");
     padding-right: 8px;
     padding-top: 3px;
     color: #befff4;
-    vertical-align: -20%;
 }
 
 
