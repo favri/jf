@@ -119,14 +119,15 @@ try {
 
     //Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Tenés una nueva solicitud de turno en javierfurman.com';
+    $mail->Subject = 'Has recibido una nueva solicitud de turno en javierfurman.com';
     $mail->Body    = $emailbody;
-    echo $emailbody;
+    // echo $emailbody;
    
 
     $mail->send();
-    echo 'Su mensaje ha sido enviado satisfactoriamente.';
-    header ('Location: index.html');
+    include ('sendok.html');
+    // echo 'Su mensaje ha sido enviado satisfactoriamente.';
+    // header ('Location: index.html');
 } catch (Exception $e) {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
 }
