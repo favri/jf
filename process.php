@@ -110,6 +110,7 @@ try {
 
     //Recipients
     $mail->setFrom('turnos@javierfurman.com', 'Web');
+    $mail->addAddress('furmanjavier@gmail.com', 'Javier Furman');     // Add a recipient
     $mail->addAddress('barraud@gmail.com', 'Seba');     // Add a recipient
    
 
