@@ -5,7 +5,6 @@ use PHPMailer\PHPMailer\Exception;
 require 'Exception.php';
 require 'PHPMailer.php';
 require 'SMTP.php';
-echo $_POST['name'];
 if( isset($_POST) ){
 	
 	//form validation vars
