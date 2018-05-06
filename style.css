@@ -84,6 +84,11 @@ margin-top: 10px;
 	    margin: 25px auto;
 }
 
+.img-center {
+	display: flex;
+	margin: auto;
+}
+
 
 /*NAVBAR*/
 
