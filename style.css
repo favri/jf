@@ -4,7 +4,7 @@
 
 
 
-
+ 
 h1 {
 	font-size: 100px;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
@@ -218,7 +218,7 @@ list-style: none;
 .btn-custom-white { 
 
 	color: #000;
-	background-color: #ff !important;
+	background-color: #ffffff !important;
 	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
 	font-weight: 600;
 	border-radius: 0 !important;
@@ -230,7 +230,7 @@ list-style: none;
 	display: inline !important;
 }
 
-.inline-block {
+.inline-block {   
 	display: inline-block !important;
 }
 
