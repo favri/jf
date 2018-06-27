@@ -2,336 +2,301 @@
 
 /*TENGO 400 (REGULAR), 600 (SEMIBOLD) y 700 (BOLD) */
 
-
-
- 
 h1 {
-	font-size: 100px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-weight: 600;
-	color: black;
+  font-size: 100px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
 }
 
-
 h2 {
-	font-size: 50px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-weight: 600;
-	color: black;
+  font-size: 50px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  color: black;
 }
 
 h3 {
-	font-size: 35px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	color: black;
+  font-size: 35px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  color: black;
 }
 
 h4 {
-	font-size: 18px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	color: black;
+  font-size: 18px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  color: black;
 }
 
 p {
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	color: black;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  color: black;
 }
-
 
 .centerelement {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
 
 /*HELPER CLASSES*/
 
 .margintop150 {
-margin-top: 150px;
+  margin-top: 150px;
 }
 
 .margintop75 {
-	margin-top: 75px;
+  margin-top: 75px;
 }
 
 .margintop40 {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .margintop10 {
-margin-top: 10px;
+  margin-top: 10px;
 }
 
 .marginbottom40 {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .margin-list {
-	padding:0;
-	margin-top: 345px;
+  padding: 0;
+  margin-top: 345px;
 }
 
 .padding35 {
-	padding: 35px;
+  padding: 35px;
 }
 
 .padding20-nosides {
-	padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .margin25auto {
-	    margin: 25px auto;
+  margin: 25px auto;
 }
 
 .img-center {
-	display: flex;
-	margin: auto;
+  display: flex;
+  margin: auto;
 }
-
 
 /*NAVBAR*/
 
 .top-nav {
-	padding-top: 25px;
+  padding-top: 25px;
 }
 
 .navbar-default {
-	box-shadow: none !important;
-	-webkit-box-shadow: none !important;
-	background-color: white;
-	border: none;
-	background-image: none !important;
-
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  background-color: white;
+  border: none;
+  background-image: none !important;
 }
-
 
 /*VIDEOS*/
 
 .video-responsive {
-	display: block;
-    max-width: 100%;
+  display: block;
+  max-width: 100%;
 }
-
-
-
 
 /*LISTA*/
 
 li {
-	list-style: none;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-size: 12px;
+  list-style: none;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-size: 12px;
 }
 
 .circle-social {
-	border-radius: 50%;
-	background-color: #000000;
-	height: 30px;
-	width: 30px;
-	margin: 0 5px 0 0;
+  border-radius: 50%;
+  background-color: #000000;
+  height: 30px;
+  width: 30px;
+  margin: 0 5px 0 0;
 }
 
 .social-icons {
-	display: flex !important;
-	padding-top: 9px;
-	justify-content: space-around;
-	color: #fff;
+  display: flex !important;
+  padding-top: 9px;
+  justify-content: space-around;
+  color: #fff;
 }
 
-
 .rrss-list {
-	margin-top: 10px;
-	margin-left: 0px;
+  margin-top: 10px;
+  margin-left: 0px;
 }
 
 /*LISTA TRATAMIENTOS*/
 
 .tratamientos li {
-list-style: none;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-size: 16px;
+  list-style: none;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-size: 16px;
 }
-
 
 /*LISTA TRATAMIENTOS PAGINA*/
 
 .tratamientos-pagina li {
-	list-style: none;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-size: 18px;
-	font-weight: 600;
+  list-style: none;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .tratamientos-pagina h3:before {
-	content: url("img/bullet_cuadrado.jpg");
-    padding-right: 8px;
-    padding-top: 3px;
-    color: #befff4;
+  content: url("img/bullet_cuadrado.jpg");
+  padding-right: 8px;
+  padding-top: 3px;
+  color: #befff4;
 }
-
-
-
-
 
 /*CUERPOS*/
 
 .pathology-title {
-    transform: rotate(-90deg);
-    display: flex;
-    flex-direction: row-reverse;
+  transform: rotate(-90deg);
+  display: flex;
+  flex-direction: row-reverse;
 }
-
 
 /*BOTONES*/
 
-.btn-custom { 
-
-	color: #fff;
-	background-color: #000 !important;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-weight: 600;
-	border-radius: 0 !important;
-
+.btn-custom {
+  color: #fff;
+  background-color: #000 !important;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  border-radius: 0 !important;
 }
 
-
 .btn-custom:hover {
-	color: #ccc !important;
+  color: #ccc !important;
 }
 
 .btn-custom:active {
-	color: #ccc !important;
+  color: #ccc !important;
 }
 
 .btn-custom:focus {
-	color: #ccc !important;
+  color: #ccc !important;
 }
 
 .btn-fixed {
-	width: 100%;
-    bottom: 0;
-    left: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
 }
 
-
-.btn-custom-white { 
-
-	color: #000;
-	background-color: #ffffff !important;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-weight: 600;
-	border-radius: 0 !important;
-
+.btn-custom-white {
+  color: #000;
+  background-color: #ffffff !important;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-weight: 600;
+  border-radius: 0 !important;
 }
-
 
 .inline {
-	display: inline !important;
+  display: inline !important;
 }
 
-.inline-block {   
-	display: inline-block !important;
+.inline-block {
+  display: inline-block !important;
 }
-
 
 /*BACKGROUNDS*/
 
-
 .main-color {
-
-	background-color: #befff4;
+  background-color: #befff4;
 }
-
 
 /*EQUIPO*/
 
 .circle-img {
-
-border-radius: 50%;
-height: 130px;
-width: 130px;
-background-image: url(img/jf.jpg);
-background-size: 100%;
-float: left;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  background-image: url(img/jf.jpg);
+  background-size: 100%;
+  float: left;
 }
 
-
 .credentials {
-	overflow: hidden;
-	padding-left: 25px;
+  overflow: hidden;
+  padding-left: 25px;
 }
 
 .credentials-name {
-	font-size: 25px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
-	font-weight: 400;
+  font-size: 25px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  font-weight: 400;
 }
-
 
 /*TRATAMIENTOS TITULOS*/
 
 .white-title {
-	background-color: #fff;
-	padding: 15px;
-font-weight: 600;
-width: 50%;
+  background-color: #fff;
+  padding: 15px;
+  font-weight: 600;
+  width: 50%;
 }
-
 
 /*FOOTER*/
 
 .footer-color {
-	background-color: #000;
-	align-items: center;
-	display: flex;
-	justify-content: space-around;
-	color: #fff;
-	font-size: 12px;
-	font-family: 'Encode Sans', Helvetica, Arial, 'sans-serif';
+  background-color: #000;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
 }
-
 
 /*MODAL*/
 
 .modal-content {
-	border-radius: 0px !important;
+  border-radius: 0px !important;
 }
 
 body.modal-open {
-    overflow: visible;
+  overflow: visible;
 }
 
+.title-modal-js {
+  margin: 0;
+  line-height: 1.42857143;
+  font-size: 18px;
+  font-family: "Encode Sans", Helvetica, Arial, "sans-serif";
+  color: black;
+}
 
 /*MEDIA QUERIES*/
 
-
 @media screen and (max-width: 480px) {
+  h1 {
+    font-size: 70px;
+  }
 
-h1 {
-	font-size: 70px;
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
 }
-
-h2 {
-	font-size: 35px;
-}
-
-h3 {
-	font-size: 25px;
-}
-
-}
-
 
 @media screen and (min-width: 990px) {
-	.margintop150desk {
-margin-top: 150px;
+  .margintop150desk {
+    margin-top: 150px;
+  }
 }
-
-	}
 
 area:focus {
-	outline: solid red 2px !important;
+  outline: solid red 2px !important;
 }
-
-

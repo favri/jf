@@ -61,7 +61,7 @@ for (var i = 0; i < elems.length; i++) {
         let img = content[target][j].img;
         // String para cuando hay mas de un bloque
         string += `
-            <div id="${title}" style="color: red">${title}</div>
+            <div id="${title}" class "title-modal-js">${title}</div>
                 <div id="${paragraph}">${paragraph}</div>
             <div id="${img}">${img}</div>
         `;
