@@ -140,7 +140,7 @@ li {
 }
 
 .rrss-list {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 0px;
 }
 
@@ -148,6 +148,11 @@ li {
 
 .wapp-button {
   max-width: 150px;
+}
+
+.wapp-ul-margin {
+  margin-top: 13px;
+  margin-left: 0px;
 }
 
 /*LISTA TRATAMIENTOS*/
