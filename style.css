@@ -39,6 +39,16 @@ p {
   justify-content: space-around;
 }
 
+/* LOGO */
+
+.logo-mini {
+  max-width: 200px;
+}
+
+.logo-text {
+  font-weight: 400;
+}
+
 /*HELPER CLASSES*/
 
 .margintop150 {
