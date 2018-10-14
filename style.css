@@ -211,6 +211,10 @@ li {
   border-radius: 0 !important;
 }
 
+.btn-custom a {
+  color: #fff;
+}
+
 .btn-custom:hover {
   color: #ccc !important;
 }
@@ -279,7 +283,7 @@ li {
   background-color: #fff;
   padding: 15px;
   font-weight: 600;
-  width: 50%;
+  width: 60%;
 }
 
 /*FOOTER*/
@@ -388,4 +392,16 @@ body.modal-open {
 
 area:focus {
   outline: solid red 2px !important;
+}
+
+@media screen and (max-width: 375px) {
+  .modal-dialog {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .modal-dialog {
+    width: 300px;
+  }
 }
