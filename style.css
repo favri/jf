@@ -322,6 +322,7 @@ body.modal-open {
 
   h2 {
     font-size: 35px;
+    margin-left: 10px;
   }
 
   h3 {
@@ -378,11 +379,19 @@ body.modal-open {
   .wapp-button {
     max-width: 200px;
   }
+
+  h2 {
+    margin-left: 10px;
+  }
+
+  .btn-mobile{
+    margin-left: 10px;
+  }
 }
 
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (max-width: 1199px) {
   .margin-title {
-    margin-top: 100px;
+    margin-top: 15px;
   }
 
   .nav > li > a {
