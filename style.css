@@ -266,6 +266,10 @@ li {
   float: left;
 }
 
+.credentials-container {
+
+}
+
 .credentials {
   overflow: hidden;
   padding-left: 25px;
@@ -277,7 +281,13 @@ li {
   font-weight: 400;
 }
 
+.turnos-container {
+  border-bottom: 20px solid #befff4;
+}
+
 /*TRATAMIENTOS TITULOS*/
+
+
 
 .white-title {
   background-color: #fff;
@@ -315,7 +325,7 @@ body.modal-open {
 }
 /*MEDIA QUERIES*/
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 578px) {
   h1 {
     font-size: 70px;
   }
@@ -327,6 +337,42 @@ body.modal-open {
 
   h3 {
     font-size: 25px;
+  }
+
+  .equipo-container h2{
+    margin-left: 0;
+  }
+  .credentials-container {
+    padding-left: 15px;
+  }
+  .credentials {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 10px;
+  }
+
+  .tratamientos-container .container{
+    padding-left: 0;
+  }
+  .tratamientos-container .container h2{
+    margin-left: 0;
+  }
+  .medicos{
+    padding-bottom: 30px;
+  }
+  .turnos-container{
+    width: 100%;
+    border: none;
+  }
+  .turnos-btn-container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .turnos-btn-container .btn{
+    width: 100%;
+  }
+  .contact-container h2{
+    margin-left: 0;
   }
 }
 
