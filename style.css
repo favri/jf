@@ -282,7 +282,7 @@ li {
 }
 
 .turnos-container {
-  border-bottom: 20px solid #befff4;
+  background-color: #befff482;
 }
 
 /*TRATAMIENTOS TITULOS*/
@@ -338,12 +338,20 @@ body.modal-open {
   h3 {
     font-size: 25px;
   }
+  .mobile-bodies-container{
+    padding-left: 30px;
+  }
+
+  .equipo-container {
+    padding-left: 30px;
+  }
 
   .equipo-container h2{
     margin-left: 0;
   }
   .credentials-container {
-    padding-left: 15px;
+    padding-left: 30px;
+    margin-left: 7.5px;
   }
   .credentials {
     width: 100%;
@@ -351,8 +359,13 @@ body.modal-open {
     padding-top: 10px;
   }
 
+  .tratamientos-container {
+    margin-left: 7.5px;
+    margin-right: -7.5px;
+  }
+
   .tratamientos-container .container{
-    padding-left: 0;
+
   }
   .tratamientos-container .container h2{
     margin-left: 0;
@@ -362,7 +375,9 @@ body.modal-open {
   }
   .turnos-container{
     width: 100%;
-    border: none;
+    background: none;
+    padding-left: 30px;
+
   }
   .turnos-btn-container{
     padding-left: 0px;
@@ -370,6 +385,9 @@ body.modal-open {
   }
   .turnos-btn-container .btn{
     width: 100%;
+  }
+  .contact-container {
+    padding-left: 30px;
   }
   .contact-container h2{
     margin-left: 0;
